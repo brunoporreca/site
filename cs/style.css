@@ -75,6 +75,6 @@ body{
   }
   @media only screen and (max-width: 767px) {
     .tamanho-texto{
-        font-size: 37px;     
+        font-size: 30px;     
     }
   }

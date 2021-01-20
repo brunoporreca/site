@@ -1,0 +1,75 @@
+body{
+    padding-top: 150px;
+}
+
+.box-shadow{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.08),
+                0 2px 4px 0 rgba(0,0,0,.08)
+    ;
+}
+.bg-azul-claro{
+    background-color: #00acea;
+}
+.bg-azul-escuro{
+     background-color: #000084;
+}
+.cor-azul-escuro{
+    color: #000084;
+}
+
+.cor-azul-claro{
+    color: #00acea;
+}
+.cor-cinza{
+    color: grey;
+}
+
+.fonte-contato{
+    font-size: 40px;
+}
+
+#blockqoute-background{
+    background: url(../img/bg-quote.jpg);
+    background-size: cover;
+}
+.cor-icones-branco{
+    color: white !important;
+}
+
+
+@media only screen and (max-width: 480px) {
+    #img-360 {
+        width: 300px;
+        height: auto;      
+    }
+  }
+
+  @media (max-width: 767px){
+      #blockqoute-background .display-4{
+          font-size: 25px;
+
+      }
+      #logo-top{
+          width: 200px;
+          height: auto;
+      }
+      body{
+          padding-top: 130px;
+      }
+      
+  }
+
+  @media (max-width: 767px){
+      body{
+          padding-top: 0px;
+      }
+      .fixed-top{
+          position: relative !important;
+      }
+  }
+
+  @media (max-width: 767px){
+    .font-size-perguntas{
+        font-size: 16px !important;
+    }
+  }

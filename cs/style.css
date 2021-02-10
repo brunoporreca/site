@@ -23,9 +23,16 @@ body{
 .cor-cinza{
     color: grey;
 }
+.cor-verde{
+    color: #A3BD34;
+}
 
 .fonte-contato{
     font-size: 40px;
+}
+#blockqoute-background-connexoffice{
+    background: url(../img/produtos/connexOffice/backgorund-connexoffice);
+    background-size: cover;
 }
 
 #blockqoute-background{
@@ -35,7 +42,53 @@ body{
 .cor-icones-branco{
     color: white !important;
 }
+.backgorund-verde{
+    background-color: #A3BD34;
+}
 
+@media only screen and (max-width: 767px) {
+    .notebook {
+        width: 300px !important;
+        height: auto;
+ 
+            
+    }
+  }
+
+@media only screen and (max-width: 767px) {
+    .teste {
+        font-size: 25px !important;  
+        text-align: center !important;  
+    }
+  }
+
+@media only screen and (max-width: 767px) {
+    .mobile-chamada-connexoffice {
+        font-size: 35px !important;    
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .mobile-texto-chamada-connexoffice {
+        text-align: center !important; 
+    }
+  }
+
+
+
+@media only screen and (max-width: 767px) {
+    .mobile-icon-connexoffice {
+        width: 80px !important;
+        height: auto;      
+    }
+  }
+
+@media only screen and (max-width: 767px) {
+    .mobile-connexoffice {
+        width: 300px !important;
+        height: auto;      
+    }
+  }
 
 @media only screen and (max-width: 767px) {
     .img-360 {

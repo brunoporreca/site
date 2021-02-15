@@ -18,7 +18,7 @@ body{
 }
 
 .cor-azul-claro{
-    color: #00acea;
+    color: #00acea !important;
 }
 .cor-cinza{
     color: grey;
@@ -47,11 +47,16 @@ body{
 }
 
 @media only screen and (max-width: 767px) {
+    .video-produto {
+        width: 200px !important;
+        height: auto;      
+    }
+  }
+
+@media only screen and (max-width: 767px) {
     .notebook {
         width: 300px !important;
-        height: auto;
- 
-            
+        height: auto;      
     }
   }
 
@@ -64,7 +69,8 @@ body{
 
 @media only screen and (max-width: 767px) {
     .mobile-chamada-connexoffice {
-        font-size: 35px !important;    
+        font-size: 35px !important;
+        text-align: center;    
     }
   }
 

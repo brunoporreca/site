@@ -39,6 +39,13 @@ body{
     background: url(../img/bg-quote.jpg);
     background-size: cover;
 }
+
+#blockqoute-background-empresa{
+    background: url(../img/empresa/brazil-1542335_1920.jpg);
+    background-size: cover;
+    
+}
+
 .cor-icones-branco{
     color: white !important;
 }

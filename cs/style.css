@@ -30,19 +30,27 @@ body{
 .fonte-contato{
     font-size: 40px;
 }
+#blockqoute-background-empresa-top{
+    background: url(../img/empresa/conferencia.jpg);
+    background-size: cover;
+    background-position: center;
+}
 #blockqoute-background-connexoffice{
     background: url(../img/produtos/connexOffice/backgorund-connexoffice);
     background-size: cover;
+    background-position: center;
 }
 
 #blockqoute-background{
     background: url(../img/bg-quote.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 #blockqoute-background-empresa{
     background: url(../img/empresa/brazil-1542335_1920.jpg);
     background-size: cover;
+    background-position: center;
     
 }
 
@@ -52,6 +60,16 @@ body{
 .backgorund-verde{
     background-color: #A3BD34;
 }
+.backgorund-azul-escuro{
+    background-color: #000084;
+}
+
+@media only screen and (max-width: 767px) {
+    .tamanho-mapas {
+        width: 200px !important;
+        height: auto;      
+    }
+  }
 
 @media only screen and (max-width: 767px) {
     .video-produto {
@@ -109,6 +127,11 @@ body{
         height: auto;      
     }
   }
+  @media (max-width: 767px){
+    .font-blocaut{
+        font-size: 25px !important;
+    }
+    }
 
   @media (max-width: 767px){
       #blockqoute-background .display-4{
@@ -136,11 +159,16 @@ body{
 
   @media (max-width: 767px){
     .font-size-perguntas{
-        font-size: 16px !important;
+        font-size: 18px !important;
     }
   }
   @media only screen and (max-width: 767px) {
     .tamanho-texto{
-        font-size: 30px;     
+        font-size: 30px !important;     
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .tamanho-texto-2{
+        font-size: 40px !important;     
     }
   }

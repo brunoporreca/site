@@ -54,6 +54,20 @@ body{
     
 }
 
+#blockqoute-background-blog{
+    background: url(../img/Blog/biblioteca-pg-blog-backgorund.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#blockqoute-background-noticia{
+    background: url(../img/noticias/backgorund-paginas-blog.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
 .cor-icones-branco{
     color: white !important;
 }
@@ -62,6 +76,10 @@ body{
 }
 .backgorund-azul-escuro{
     background-color: #000084;
+}
+
+.backgorund-azul-claro{
+    background-color: #00acea;
 }
 
 .zoom{
@@ -78,6 +96,28 @@ body{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
+
+@media only screen and (max-width: 767px) {
+    .tamanho-font-noticia-midia {
+    margin-left: auto;
+    margin-right: auto; 
+
+    }
+  }
+
+@media only screen and (max-width: 767px) {
+    .tamanho-font-noticia-titulo {
+        font-size: 20px !important;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .tamanho-font-noticia-texto {
+        font-size: 13px !important;
+        margin-top: 20px !important;
+    }
+  }
+
 
 @media only screen and (max-width: 767px) {
     .tamanho-mapas {

@@ -7,18 +7,18 @@ body{
                 0 2px 4px 0 rgba(0,0,0,.08)
     ;
 }
-.bg-azul-claro{
-    background-color: #00acea;
+.bg-laranja{
+    background-color: #DD9F3D;
 }
 .bg-azul-escuro{
-     background-color: #000084;
+     background-color: #1360A3;
 }
 .cor-azul-escuro{
-    color: #000084;
+    color: #1360A3 !important;
 }
 
-.cor-azul-claro{
-    color: #00acea !important;
+.cor-laranja{
+    color: #DD9F3D !important;
 }
 .cor-cinza{
     color: grey;

@@ -98,6 +98,14 @@ body{
 }
 
 @media only screen and (max-width: 767px) {
+    .tamanho-icones {
+    width: 130px !important;
+    height: auto; 
+
+    }
+  }
+
+@media only screen and (max-width: 767px) {
     .tamanho-font-noticia-midia {
     margin-left: auto;
     margin-right: auto; 

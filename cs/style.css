@@ -30,6 +30,10 @@ body{
 .fonte-contato{
     font-size: 40px;
 }
+hr{
+    margin: 2px;
+}
+
 #blockqoute-background-empresa-top{
     background: url(../img/empresa/conferencia.jpg);
     background-size: cover;

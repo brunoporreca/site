@@ -102,6 +102,21 @@ hr{
 }
 
 @media only screen and (max-width: 767px) {
+    .tamanho-font-oferta {
+    font-size: 25px !important;
+    text-align: center;
+
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .text-align-center {
+    text-align: center;
+
+    }
+  }
+
+@media only screen and (max-width: 767px) {
     .tamanho-icones {
     width: 130px !important;
     height: auto; 

@@ -102,6 +102,22 @@ hr{
 }
 
 @media only screen and (max-width: 767px) {
+    .tamanho-font-respostas {
+    font-size: 10px !important;
+    text-align: center;
+
+    }
+  }
+
+@media only screen and (max-width: 767px) {
+    .tamanho-font-perguntas {
+    font-size: 15px !important;
+    text-align: center;
+
+    }
+  }
+
+@media only screen and (max-width: 767px) {
     .tamanho-font-oferta {
     font-size: 25px !important;
     text-align: center;

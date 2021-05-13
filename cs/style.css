@@ -48,6 +48,13 @@ body{
 }
 
 @media only screen and (max-width: 480px) {
+    #largura-video-modal {
+        width: 320px !important;  
+        height: 315px !important;
+    }
+  }
+
+@media only screen and (max-width: 480px) {
     #logo-mobile {
         width: 300px !important;   
     }

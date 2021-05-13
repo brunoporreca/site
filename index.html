@@ -1,14 +1,7 @@
 <!doctype html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
-<!--SEO-->
-  <meta name="description" content="Somos uma loja online (ecommerce) de utilidades domésticas, buscamos superar todas expectativas de vocês clientes, entregando praticidade e alegria!">
-  <meta name="author" content="Bruno Porreca">
-  <meta name="robots" content="index, follow">
-
-  <meta name="keywords" content="ecommerce, loja online, loja, internet, baita, baitashop, vendas online, compras online, mercado online, mercado livre, shoppe, amazon, baitashopnews, utensílios para cozinha, utensílios para sala, utensílios para churrasco, utensílios para viagem, tábuas, garrafas, garfos, copos, canecas, entregas, estoque imediato, trabalhos sociais, noticias, blog, news, ajuda, boa ação, campanhas">
-
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,18 +10,48 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-<!--TITULO DA PAGINA-->
-  <title>baitashopnews | Pagina Inicial</title>
+  <title>Jornada de E-commerce | Index</title>
 </head> 
+
 <body>
 
-   <!-- MENU NAV BAR-->
-   <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top p-4 box-shadow">
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Inscrição para o Mercado Livre</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <iframe width="467" height="315" src="https://www.youtube.com/embed/wF2u5me9W5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <form method="POST" action="receive.php">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Seu E-mail</label>
+            <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="seuemail@seuemail.com.br">
+            <small id="emailHelp" class="form-text text-muted">Informe um e-mail válido para receber mais informações</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Whatsapp</label>
+            <input type="phone" name="nome" class="form-control" id="exampleInputPassword1" placeholder="(19) 998181006">
+            <input type="submit" value="Enviar"> 
+          </div>
+        </form>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+  <!-- MENU NAV BAR-->
+  <nav class="navbar navbar-expand-md navbar-light bg-dark fixed-top p-4 box-shadow">
     <div class="container">
       <a class="navbar-brand" href="index.html">
-        <object id="logo-top" type="image/svg+xml" data="img/logo/logo-baitashop-new.svg" width="350"
-          height="auto"></object>
+        <img id="logo-mobile" src="img/logo/LOGO-SEM-FUNDO-1.png" alt="logo" style="width: 350px; height: auto;">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,226 +60,243 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active mx-3">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link text-white" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item mx-3">
-            <a class="nav-link" href="oferta-semana.html">Oferta da Semana</a>
-          </li>
-          <li class="nav-item dropdown mx-3">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Blog
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="sociais.html">Ação Social</a>
-              <a class="dropdown-item" href="noticias.html">Notícias</a>
-              <a class="dropdown-item" href="endomarketing.html">Endo Marketing</a>
-            </div>
-          </li>
+            <a class="nav-link text-white" href="empresa.html">Inscrição</a>
+          </li>      
           <li class="nav-item mx-3">
-            <a class="nav-link" href="contato.html">Contato</a>
+            <a class="nav-link text-white" href="contato.html">Contato</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!--CARROSSEL-->
-  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item">
-        <img src="img/carrossel/arte-feed-pascoa-site.jpg" class="d-block w-100" alt="campanha pascoa">
+  <!--CARROSSEL + CAPTURA DE E-MAIL-->
+  <section class="container-fluid">
+    <div class="row bg-azul text-white ">
+      <!--CAROUSEL-->
+      <div class="col-lg-7 p-0">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+         
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100 img-fluid" src="img/carousel/hugo-caixas.jpg" alt="connexfood">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+          </a>
+        </div>
+
       </div>
-      <div class="carousel-item active">
-        <a href="enfermeiros.html"><img src="img/carrossel/carrossel-enfermeiro.jpg" class="d-block w-100" alt="enfermeiro"></a>
+      <!--TEXTO + CAPTURA DE EMAIL (LADO DIREITO)-->
+      <div class="col-lg-5 align-self-center text-center ">
+        <h1 class="display-4 text-center" id="titulo-mobile">Junte-se a esta Jornada!</h1>
+        <p class="lead text-center" id="texto-mobile">
+          Venha fazer parte do maior time de E-commerce do Brasil, aqui você
+          aprende e coloca em prática!
+        </p>
+        <button type="button" class="btn btn-lg btn-secondary" data-toggle="modal" data-target="#exampleModal">Inscreva-se </button>
+        
+        <!--FORMULARIO PARA CAPTAR E-MAIL-->
+        
       </div>
-      <div class="carousel-item">
-        <img src="..." class="d-block w-100" alt="segundo-carrossel">
+      
+    </div>
+  </section>
+  <!--CARD DE OQUE OFERECEMOS!-->
+  <section class="py-5 bg-light text-center">
+    <div class="container-fluid">
+      <span class="h6">Serviços Oferecidos</span>
+      <h2 class="display-4 cor-azul-escuro">Treinamento de Alto Nivel!</h2>
+      <div class="row mt-5">
+      
+        <div class="col-xl-3 col-md-6">
+          <img src="img/svgs/qualidade.svg" style="width: 80px; height: auto;" alt="qualidade">
+          <h6 class="pt-4 cor-azul-claro">QUALIDADE DE CONTEÚDO</h6>
+          <p class="tamanho-font-icones">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+          </p>
+        </div>
+
+        <div class="col-xl-3 col-md-6">
+          <img src="img/svgs/video-aula.svg" style="width: 80px; height: auto;" alt="video aulas">
+          <h6 class="pt-4 cor-azul-claro">AULAS GRAVADAS EM HD</h6>
+          <p class="tamanho-font-icones">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+          </p>
+        </div>
+        <div class="col-xl-3 col-md-6">
+          <img src="img/svgs/material.svg" style="width: 80px; height: auto;" alt="materiais">
+          <h6 class="pt-4 cor-azul-claro">MATERIAIS COMPLEMENTARES</h6>
+          <p class="tamanho-font-icones">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+          </p>
+        </div>
+
+        <div class="col-xl-3 col-md-6">
+          <img src="img/svgs/certi.svg" style="width: 80px; height: auto;" alt="certificado">
+          <h6 class="pt-4 cor-azul-claro">GERENCIE O FLUXO DE SUA EQUIPE</h6>
+          <p class="tamanho-font-icones">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+          </p>
+        </div>
+
+      <div class="text-center">
+        <a href="empresa.html" class="btn btn-primary btn-lg mt-4">Saiba Mais</a>
       </div>
     </div>
-  </div>
+  </section>
 
-  
-  <!--LINHA-->
-  <div class="bg-azul-escuro p-2"></div>
-
-  <!--PARTE DE CONTEÚDO-->
-<section>
-  <div class="container text-center">
+  <!--PARTE 360 DO SITE-->
+  <section class="container">
     <div class="row">
+      <img src="img/svgs/meio-do-site.svg" alt="meio" style="width: 380px; height: auto;">
 
-      <div class="col-md-4 d-flex justify-content-center mt-2">
-        <div class="card" style="width: 18rem;">
-          <img src="img/noticias-index/enfermeiros-social.jpg" class="card-img-top" alt="enfermeiros">
-          <div class="card-body">
-            <h5 class="card-title">Amor sem Fronteiras</h5>
-            <p class="card-text">Nós da Baitashop queremos ajudar a todos da área da saúde nossos eternos herois. Sabemos da dificuldade que TODOS passam, porem tem alguns que nem conseguem voltar para casa por terem pais ou avós de idade... <!--e é por isso que queremos toda semana ajudar não só esses enfermeiros mas centros de saúdes com cafés da manhãs, menssagens de familiares e qual quer outra ação que torne o dia deste herói mais gratificante !!--> </p>
-            <a href="enfermeiros.html" class="btn btn-primary" style="background-color: #1360A3;">Leia Mais</a>
-          </div>
-        </div>
+      <div class="col-lg-7 mt-4 align-self-center text-center">
+        <h2 class="mr-3 cor-azul-escuro">JORNADA REAL DE VENDAS</h2>
+        <p class="lead" style="font-size: 25px;">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+          "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+          
+        </p>
+
       </div>
-
-      <div class="col-md-4 d-flex justify-content-center mt-2">
-        <div class="card" style="width: 18rem;">
-          <img src="img/noticias-index/modelo-pascola-feed.jpg" class="card-img-top" alt="pascoa">
-          <div class="card-body">
-            <h5 class="card-title">7 Passos para fazer seu Ovo de Páscoa</h5>
-            <p class="card-text">O momento que estamos vivendo é complicado e todos sabemos disso! Pensando em gerar uma oportunidade para as pessoas fazerem uma renda extra...</p>
-            <a href="pascoa.html" class="btn btn-primary" style="background-color: #1360A3;">Leia Mais</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 d-flex justify-content-center mt-2">
-        <div class="card" style="width: 18rem;">
-          <img src="img/noticias-index/cuidado.jpg" class="card-img-top" alt="cuidado">
-          <div class="card-body">
-            <h5 class="card-title">Cuidados!</h5>
-            <p class="card-text">Amigos e amigas, nós do Time Baitashop estamos recebendo muitas mensagens decorrente a tentativa de fraudes utilizando de nosso nome, acreditamos que com a quarentena e o aumento das compras online instigou algumas pessoas a fazerem o mal!</p>
-            <a href="cuidados.html" class="btn btn-primary" style="background-color: #1360A3;">Leia Mais</a>
-          </div>
-        </div>
-      </div>
-
     </div>
-  </div>
-</section>
+  </section>
 
-<!--BLOCKOUT-->
-<section id="blockqoute-background-empresa" class="p-5 mt-2">
-  <blockquote class="blockquote text-center">
-    <p class="display-4 text-white font-blocaut "><em>
-        "Entregando praticidade e alegria para todo Brasil !!"
-        <footer class="text-white">-<cite title="Source Title">BaitaShop</cite></footer>
-      </em></p>
-  </blockquote>
-</section>
+  <section id="blockqoute-background" class="p-5">
+    <blockquote class="blockquote text-center">
+      <p class="display-4 text-white"><em>
+          "Você pode encarar um erro como uma besteira a ser esquecida ou como um resultado que aponta uma nova direção"
+          <footer class="blockquote-footer text-white">.<cite title="Source Title">Steve Jobs</cite></footer>
+        </em></p>
 
+    </blockquote>
 
- <!--LINHA-->
- <div class="bg-laranja text-center p-1"></div>
-  <div class="bg-azul-escuro text-center">
+  </section>
 
-    <img src="img/logos-empresas-brancas/amazon-branco.png" alt="logo amazon" style="width: 250px; height: auto;" class="p-5">
-    <img src="img/logos-empresas-brancas/plataforma-loja-integrada-branca.png" alt="logo loja integrada" style="width: 350px; height: auto;" class="p-5">
-    <img src="img/logos-empresas-brancas/mercado-livre-logo-7-branco.png" alt="logo mercado livre" style="width: 250px; height: auto;" class="p-5">
-    <img src="img/logos-empresas-brancas/shopee-logo-digital-economy-forum-mdcc-1-branco.png" alt="logo shopeee" style="width: 350px; height: auto;" class="p-5">
-    
-  </div>
+  <!--PERGUNTAS FREQUENTES-->
 
-  <div class="bg-laranja text-center p-1"></div>
-  <div>
-  </div>
-  
+  <section class="container-fluid py-5 bg-light text-center">
+    <span class="h6">AINDA ESTÁ COM DÚVIDAS?</span>
+    <h2 class="display-4 cor-azul-escuro">Perguntas Frequentes</h2>
+    <div class="container">
+      <div class="row mt-5 justify-content-center ">
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                  aria-controls="collapseOne lead">
+                  <h5>Pergunta - 1</h5>
+                </button>
+              </h5>
+            </div>
 
-    <!--PERGUNTAS FREQUENTES-->
-    <section class="container py-5 bg-light text-center">
-      <span class="h6">AINDA ESTÁ COM DÚVIDAS?</span>
-      <h2 class="display-4 cor-azul-escuro tamanho-texto">Perguntas Frequentes</h2>
-
-      <div class="container-fluid">
-        <div class="row mt-5">
-          <div id="accordion">
-            <div class="card">
-              <div class="card-header" id="headingOne">
-                <h5 class="mb-0">     
-
-                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
-                    aria-controls="collapseOne lead">
-                    <h5 class="tamanho-font-perguntas">Qual a diferença entre<br> Baitashop e BaitashopNEWS ?</h5>
-                  </button>
-                </h5>
-              </div>
-              
-              <div>
-              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="card-body lead tamanho-font-respostas">
-                  Nós da Baitashop temos muitas ações de Endomarketing e sociais e gostaríamos de arrastar este exemplo de boas ações a diante, sempre trazendo exemplo de que com pouco pode se fazer muito. Intuitos de trazer noticias e amplificar informações que são realmente relevante para nossos clientes, amigos e parceiros.
-                </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body lead font-size-perguntas">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+                moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
               </div>
             </div>
-            <div class="card">
-              <div class="card-header" id="headingTwo">
-                <h5 class="mb-0">
-                  <button class="btn btn-link collapsed lead" data-toggle="collapse" data-target="#collapseTwo"
-                    aria-expanded="false" aria-controls="collapseTwo">
-                    <h5 class="tamanho-font-perguntas">A Baitashop vende só pelo<br> site www.baitashop.com.br ?</h5>
-                  </button>
-                </h5>
-              </div>
-              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                <div class="card-body lead tamanho-font-respostas">
-                  NÃO, hoje somos um e-commerce muito ramificado, vendemos em diversas plataformas entre elas as mais conceituadas, Mercado Livre, Shoppe e Amazon, porem não deixamos a qualidade cair ja que TODOS OS PRODUTOS sai de nosso barracão, onde fazemos a separação e a embalagem com muito cuidado e qualidade.
-                </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed lead" data-toggle="collapse" data-target="#collapseTwo"
+                  aria-expanded="false" aria-controls="collapseTwo">
+                  <h5>Pergunta - 2</h5>
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body lead font-size-perguntas">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+                moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
               </div>
             </div>
-            <div class="card">
-              <div class="card-header" id="headingThree">
-                <h5 class="mb-0">
-                  <button class="btn btn-link collapsed lead" data-toggle="collapse" data-target="#collapseThree"
-                    aria-expanded="false" aria-controls="collapseThree">
-                    <h5 class="tamanho-font-perguntas">Como faço para ajudar<br> nas campanhas sociais ?</h5>
-                  </button>
-                </h5>
-              </div>
-              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                <div class="card-body lead tamanho-font-respostas">
-                  Nunca foi nosso intuito abrir algum tipo de ong para ajudar as pessoas. Nós da Baitashop temos uma cultura e um “lema” que é, Quanto mais crescermos mais vamos ajudar” e vem sido assim por anos, todos os meses colaboramos e ajudamos, acreditamos que Arrastar o bem é nosso intuito. Não queremos mudar o mundo, mas queremos mudar o mundo de uma família.<br><br>
-
-E caso queira entrar nessa ação social, entre em contato podemos indicar famílias e estabelecimentos como APAE, Hospitais dentre outros centros que precisam de ajuda. Caso faça a doação faremos questão de postar em nosso blog, independente de empresa, marca ou concorrência.
-                </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed lead" data-toggle="collapse" data-target="#collapseThree"
+                  aria-expanded="false" aria-controls="collapseThree">
+                  <h5>Pergunta - 3</h5>
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body lead font-size-perguntas">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+                moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
               </div>
             </div>
           </div>
         </div>
-        <div class="text-center mt-5 text-center py-3">
-          <span class="h6">PARA MAIS PERGUNTAS, ENTRE EM CONTATO!</span><br>
-          <a class="btn btn-primary mt-3" href="contato.html">Entre em contato</a>
-  
-        </div>
       </div>
-    </section>
+      <div class="text-center mt-5 text-center py-3">
+        <span class="h6">PARA MAIS PERGUNTAS, ENTRE EM CONTATO!</span><br>
+        <a class="btn btn-primary mt-3" href="contato.html">Entre em contato</a>
 
-
+      </div>
+    </div>
+  </section>
 
   <!--FOOTER-->  
-  <footer class="bg-azul-escuro text-white mt-2">
+  <footer class="bg-azul text-white mt-2">
     <div class="container-fluid py-4 text-center">
       <div class="row d-flex align-items-center">
         <div class="col-3 col-md-3 col-6 mt-3">
-          <h4 class="h6">PÁGINAS</h4>
           <ul class="list-unstyled">
-            <li class="p-2"><a class="cor-branca" href="home.html">Home</a></li>
-            <li class="p-2"><a class="cor-branca" href="oferta-semana.html">Oferta da Semana</a></li>
-            <li class="p-2"><a class="cor-branca" href="sociais.html">Blog</a></li>
-            <li class="p-2"><a class="cor-branca" href="contato.html">Contato</a></li>
+            <li class="p-2"><a class="text-white" href="home.html">Home</a></li>
+            <li class="p-2"><a class="text-white" href="#">Inscrição</a></li>
+            <li class="p-2"><a class="text-white" href="#">Sobre</a></li>
+            <li class="p-2"><a class="text-white" href="#">Contato</a></li>
           </ul>
   
         </div>
   
-        <div class="col-3 col-md-3 col-6">
-          <h4 class="h6">BLOG</h4>
-          <ul class="list-unstyled">
-            <li class="p-2"><a class="cor-branca" href="sociais.html">Ações Sociais</a></li>
-            <li class="p-2"><a class="cor-branca" href="noticias.html">Notícias</a></li>
-            <li class="p-2"><a class="cor-branca" href="endomarketing">Endo Marketing</a></li>
-          </ul>
   
         </div>
         <div class="col-md-3">
           <a class="navbar-brand" href="index.html">
-            <object id="logo-top" type="image/svg+xml" data="img/logo/logo-baitashop-footer-branco.svg" width="292" height="92"></object>
+            <img src="img/logo/LOGO-SEM-FUNDO-1.png" alt="logo braitashop branco footer" style="width: 292px; height: 92px;">
           </a>
   
         </div>
   
         <div class="col-md-3 text-center">
+          <!--facebook-->
           <a href="https://www.facebook.com/lojabaitashop">
-            <object class="p-2" type="image/svg+xml" data="img/icones-midia/facebook-laranja.svg" width="60" height="auto"></object></a>
-  
-           <a href="https://www.instagram.com.br/baitashop_"> <object class="p-2"  type="image/svg+xml" data="img/icones-midia/instagram-laranja.svg" width="60" height="auto"></object></a>
-  
-           <a href="#"> <object class="p-2" type="image/svg+xml" data="img/icones-midia/linkedin-laranja.svg" width="60" height="auto"></object></a>
+            <img class="cor-branca" src="img/icones/facebook-preto.svg" alt="facebook" style="width: 60px; height: auto;">
+            <!--instagram-->
+           <a href="https://www.instagram.com.br/baitashop_">
+            <img src="img/icones-midia/instagram-laranja.svg" alt="instagram" style="width: 60px; height: auto;">
+  <!--facebook-->
+           <a href="#">
+             <img src="img/icones-midia/linkedin-laranja.svg" alt="linkedin" style="width: 60px; height: 60px;">
         </div>
   
       </div>

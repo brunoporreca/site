@@ -7,6 +7,13 @@ body{
                 0 2px 4px 0 rgba(0,0,0,.08)
     ;
 }
+#blockqoute-background-empresa{
+    background: url(../img/bl/blockout.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
 .bg-azul{
     background-color: #0512c0;
 }
@@ -30,9 +37,14 @@ body{
 .fonte-contato{
     font-size: 40px;
 }
+#background-ml-power{
+    background-image: url(../img/mlpower/top/backgorund.jpg);
+    background-size: cover;
+
+}
 
 #blockqoute-background{
-    background: url(../img/bg-quote.jpg);
+    background: url(../img/bl/teste02.jpg);
     background-size: cover;
 }
 .cor-icones-branco{
@@ -48,21 +60,50 @@ body{
 }
 
 @media only screen and (max-width: 480px) {
+    #tamanho-font-blockout {
+        font-size: 30px!important;
+    }
+  }
+
+@media only screen and (max-width: 480px) {
+    #margin-top {
+        margin-top: 30px !important;
+    }
+  }
+
+@media only screen and (max-width: 480px) {
+    #caixa {
+        width: 250px !important;  
+        height: 250px !important;
+    }
+  }
+
+@media only screen and (max-width: 480px) {
+    #video-carrossel {
+        width: 100% !important;  
+        height: 400px !important;
+    }
+  }
+
+@media only screen and (max-width: 480px) {
     #largura-video-modal {
-        width: 320px !important;  
-        height: 315px !important;
+        width: 380px !important;  
+        height: auto !important;
     }
   }
 
 @media only screen and (max-width: 480px) {
     #logo-mobile {
-        width: 300px !important;   
+        width: 240px !important;
+        height: auto !important;
+        margin-left: 40px;
     }
   }
 
 @media only screen and (max-width: 480px) {
     #titulo-mobile {
-        font-size: 30px !important;      
+        font-size: 30px !important;
+            
     }
   }
 

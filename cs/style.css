@@ -59,6 +59,17 @@ body{
     background-color: #353a3f;
 }
 
+
+
+@media only screen and (max-width: 480px) {
+    .tamanho-video {
+        width: 400px !important;
+    }
+  }
+
+
+
+
 @media only screen and (max-width: 480px) {
     #tamanho-font-blockout {
         font-size: 30px!important;
@@ -78,6 +89,12 @@ body{
     }
   }
 
+  @media only screen and (max-width: 480px) {
+    #foto-textos {
+        width: 100% !important;  
+        height: auto !important;
+    }
+  }
 @media only screen and (max-width: 480px) {
     #video-carrossel {
         width: 100% !important;  

@@ -68,8 +68,6 @@ body{
   }
 
 
-
-
 @media only screen and (max-width: 480px) {
     #tamanho-font-blockout {
         font-size: 30px!important;
@@ -91,7 +89,7 @@ body{
 
   @media only screen and (max-width: 480px) {
     #foto-textos {
-        width: 100% !important;  
+        width: 380% !important;  
         height: auto !important;
     }
   }

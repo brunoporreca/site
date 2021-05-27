@@ -75,7 +75,7 @@ body{
   }
   @media only screen and (max-width: 480px) {
     #mg-top {
-        margin-top: 20px !important;
+        margin-top: 10px !important;
     }
   }
 

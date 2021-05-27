@@ -77,7 +77,7 @@ body{
   @media only screen and (max-width: 480px) {
     #redondo-mobile {
         width: 100px !important;
-        height: auto !important;
+        height: 100px !important;
     }
   }
 

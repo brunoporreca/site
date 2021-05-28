@@ -95,6 +95,7 @@ body{
     #logo-novo-mobile-top {
         width: 300px !important;  
         height: auto !important;
+        margin-bottom: 15px !important;
     }
   }
   @media only screen and (max-width: 480px) {

@@ -92,6 +92,12 @@ body{
     }
   }
   @media only screen and (max-width: 480px) {
+    #logo-novo-mobile-top {
+        width: 320px !important;  
+        height: auto !important;
+    }
+  }
+  @media only screen and (max-width: 480px) {
     #logo-novo-mobile {
         width: 250px !important;  
         height: auto !important;

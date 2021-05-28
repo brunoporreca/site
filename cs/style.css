@@ -81,8 +81,8 @@ body{
 
   @media only screen and (max-width: 480px) {
     #redondo-mobile {
-        width: 160px !important;
-        height: 160px !important;
+        width: 200px !important;
+        height: 200px !important;
     }
   }
 
@@ -93,7 +93,7 @@ body{
   }
   @media only screen and (max-width: 480px) {
     #logo-novo-mobile-top {
-        width: 300px !important;  
+        width: 360px !important;  
         height: auto !important;
         margin-bottom: 25px !important;
     }

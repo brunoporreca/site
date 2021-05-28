@@ -91,6 +91,12 @@ body{
         margin-top: 30px !important;
     }
   }
+  @media only screen and (max-width: 480px) {
+    #logo-novo-mobile {
+        width: 250px !important;  
+        height: auto !important;
+    }
+  }
 
 @media only screen and (max-width: 480px) {
     #caixa {
